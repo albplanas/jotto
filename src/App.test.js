@@ -55,7 +55,7 @@ test('renders without crashing', () => {
     const appComponent=findByTestAttr(wrapper,'component-app');
    expect(appComponent.length).toBe(1);
 });
-
+/*
 test('Increment button', () => {
     const wrapper=setup();
     const button=findByTestAttr(wrapper,'increment-button');
@@ -102,4 +102,4 @@ test('click button decremt counter at 0?', () => {
     wrapper.update();
     const counterDisplay= findByTestAttr(wrapper,'counter-display')
    expect(counterDisplay.text()).toContain(counter-1);
-});
+});*/
